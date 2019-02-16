@@ -28,7 +28,8 @@ if __name__=="__main__":
 
     for x in range(pic_height):
         for y in range(pic_width):
-            pic_str=getchar(*im.getpixel((x, y)))
+            rgb_alpha=im.getpixel((x, y))
+            pic_str=getchar(*rgb_alpha)
             print(pic_str)
 
 
