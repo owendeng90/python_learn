@@ -2,12 +2,28 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2019/10/20 8:28
 # @Author  : owen
-# @Site    : 
+# @Site    :
 # @File    : test.py
 # @Software: PyCharm Community Edition
 # @Code thought
 
-a=True
-b=False
-print(None and 1 or 'None' or 'b')
+number=7
+i=1
 
+while i<number:
+    j=number-i
+    while j>i:
+        print(' ', end='')
+        j-=1
+
+    x=i
+    while x>0:
+        print('*', end='')
+        x-=1
+
+    y=i
+    while y>0:
+        print('*', end='')
+        y -= 1
+    print('')
+    i+=1

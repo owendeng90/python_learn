@@ -7,8 +7,12 @@
 # @Software: PyCharm Community Edition
 # @Code thought
 
-for numrows in range(1,7):
+num = input("请输入任意整数(1-15")
+
+for numrows in range(1,2*num-1):
     print('')
-    for numcolumns in range(1,7):
-        if numcolumns<=numrows:
-            print(numcolumns,end=' ')
+    for numcolumns in range(1,2*num-1):
+        if numcolumns<=num+1 and numcolumns<=num+1:
+            print(numcolumns,end='')
+        else:
+            print(' ',end='')

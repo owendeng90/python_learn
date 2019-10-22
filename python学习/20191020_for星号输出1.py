@@ -22,24 +22,24 @@ while numrows <=6:
     numrows += 1
 
 #类型2
-# numrows=6
-# while numrows >=0:
-#     print('')
-#     numcolumns=1
-#     while numcolumns <=6:
-#         if numcolumns<=numrows:
-#             print(numcolumns,end=' ')
-#         numcolumns+=1
-#     numrows -= 1
+numrows=6
+while numrows >=0:
+    print('')
+    numcolumns=1
+    while numcolumns <=6:
+        if numcolumns<=numrows:
+            print(numcolumns,end=' ')
+        numcolumns+=1
+    numrows -= 1
 
 
 #类型1
-# numrows=1
-# while numrows <=6:
-#     print('')
-#     numcolumns=1
-#     while numcolumns <=6:
-#         if numcolumns<=numrows:
-#             print(numcolumns,end=' ')
-#         numcolumns+=1
-#     numrows += 1
+numrows=1
+while numrows <=6:
+    print('')
+    numcolumns=1
+    while numcolumns <=6:
+        if numcolumns<=numrows:
+            print(numcolumns,end=' ')
+        numcolumns+=1
+    numrows += 1
