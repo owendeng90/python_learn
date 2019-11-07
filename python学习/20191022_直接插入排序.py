@@ -14,12 +14,12 @@ list=[]
 for i in range(numcnt+1):
     list.append(random.randint(1,1000))
 
-insertnum=random.randint(1,1000)
-
-for i in range(0,numcnt):
-    small_flg=i
-    for j in range(i+1,numcnt+1):
-        if list[small_flg]>list[j]:
-            small_flg=j
-    list[i],list[small_flg]=list[small_flg],list[i]
+for i in range(1,numcnt+1):
+    key=list[i]
+    j=0
+    while j<i:
+        if key<list[j]:
+            list[i],list[j]=list[j],list[i]
+        j+=1
 print(list)
+
